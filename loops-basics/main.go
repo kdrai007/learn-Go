@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func bulkSend(totalMsg int) float64 {
 	var totalCost float64
 
@@ -43,6 +41,8 @@ func getMaxMessagesToSend(costMultiplier float64, maxCostInPennies int) int {
 func main() {
 	// fmt.Printf("bulk cost would be %.2f", bulkSend(12))
 	// fmt.Println(maxMessages(1000))
+	// fmt.Println(getMaxMessagesToSend(1.3, 13))
 
-	fmt.Println(getMaxMessagesToSend(1.3, 13))
+	exerciseOne()
+	// exerciseTwo()
 }
